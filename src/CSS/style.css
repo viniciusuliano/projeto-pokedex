@@ -128,3 +128,48 @@ main .descricao {
     font-size: 15px;
     padding-right: 10px;
 }
+
+
+.container-pokemon{
+    display: flex;
+    justify-content: center;
+    height: 3em;
+    align-items: center ;
+}
+
+.pesquisar {
+    background: #d8e3ec;
+    display: flex;
+    gap: 0.2em  ;
+    align-items: center;
+    border-radius: 30px ;
+    height: 40px;
+    
+}
+
+.imagem-lupa{
+    margin-top: 5px;
+    margin-right: 50%;
+    width: 50px;
+    height: 30px;
+}
+
+
+#barra-pesquisa{
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    background: none;
+    margin-left: 1em;
+    outline: 0;
+    width: 0;
+    transition: 0.4s;
+}
+
+.modo-escuro .pesquisar {
+    background-color: #a8a8a8;
+}
+
+
+.pesquisar:hover > #barra-pesquisa{
+    width: 320px;
+}
